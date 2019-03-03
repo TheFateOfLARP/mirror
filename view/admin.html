@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link href="css/admin.css" rel="stylesheet">
+</head>
+<body>
+    <div class='flex-container'>
+        <div class="flex-item">
+            <textarea placeholder="Random Text Goes Here" rows="10" cols="300"></textarea>
+            <button onClick="sendCustomMsg(this)">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p>...дай ка подумать над твоим вопросом...</p>
+            <button onClick="sendMsg(this)">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p>Зачем ты здесь?</p>
+            <button onClick="sendMsg(this)">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p>А? Глуховато я стало..Говори громче!</p>
+            <button onClick="sendMsg(this)">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p>все бормочешь да бормочешь..Повтори!</p>
+            <button onClick="sendMsg(this)">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p></p>
+            <button onClick="sendMsg(this)">Clear screen</button>
+        </div>
+        <div class="flex-item">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat suscipit ipsum non fringilla.
+                {NEWLINE}
+                Nam vitae purus id felis vulputate porta porta sit amet quam. Proin ultrices lectus sit amet mauris malesuada, et ultricies arcu viverra.
+                {NEWLINE}
+                Donec id ex diam. Morbi diam urna, porttitor non felis eget, vestibulum mattis neque. Praesent sit amet nunc et purus ultrices euismod.
+                {NEWLINE}
+                Suspendisse sodales erat non lorem cursus, in pulvinar dolor dapibus. Sed lacinia molestie sapien eget malesuada.
+                {NEWLINE}
+                Pellentesque scelerisque tellus non sodales fermentum. Nunc ultrices lorem nec dolor lobortis, in ornare enim ultrices.
+                {NEWLINE}
+                Integer interdum tortor sit amet arcu ultrices, et suscipit orci tempor. Proin porta dui eu enim commodo, vel maximus augue porttitor.
+                {NEWLINE}
+                Integer eget ornare enim, sit amet mattis augue.
+            </p>
+            <button onClick="sendMsg(this)">Send</button>
+        </div>
+    <script type="text/javascript" src="/js/admin.js"></script>
+</body>
+</html>

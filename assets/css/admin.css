@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blueviolet;
+}
+
+.flex-item.waiting {
+    display: flex;
+    background-color: wheat;
+    flex-direction: row;
+    border: 2px solid red;
+}

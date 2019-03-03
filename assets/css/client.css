@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: #000;
+}
+
+.container {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    text-align: center;
+    min-height: 95vh;
+    letter-spacing: 4px;
+}
+
+#fittext .new{opacity: 0;}
+#fittext .div_opacity{
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+}
+
+h3 {
+    background: rgba(0,0,0,0.2);
+    text-align: center;
+    color:#fff;
+    font-family: "Neucha", cursive;
+    text-transform: uppercase;
+    font-size: 72px;
+}
