@@ -4,5 +4,7 @@
 4. PROFIT!
 
 You can check running example on heroku:
+
 https://wizard-mirror.herokuapp.com/admin.html
+
 https://wizard-mirror.herokuapp.com/client.html
