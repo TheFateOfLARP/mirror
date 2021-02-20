@@ -6,27 +6,35 @@
     <div class='flex-container'>
         <div class="flex-item">
             <textarea placeholder="Random Text Goes Here" rows="10" cols="300"></textarea>
-            <button onClick="sendCustomMsg(this)">Send</button>
+            <button onClick="sendCustomMsg(this, 'text')">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <input type="file" id="filename" />
+            <button onClick="sendMsg(this, 'img')">Send</button>
         </div>
         <div class="flex-item waiting">
             <p>...дай ка подумать над твоим вопросом...</p>
-            <button onClick="sendMsg(this)">Send</button>
+            <button onClick="sendMsg(this, 'text')">Send</button>
+        </div>
+        <div class="flex-item waiting">
+            <p>Как тебя зовут?</p>
+            <button onClick="sendMsg(this, 'text')">Send</button>
         </div>
         <div class="flex-item waiting">
             <p>Зачем ты здесь?</p>
-            <button onClick="sendMsg(this)">Send</button>
+            <button onClick="sendMsg(this, 'text')">Send</button>
         </div>
         <div class="flex-item waiting">
             <p>А? Глуховато я стало..Говори громче!</p>
-            <button onClick="sendMsg(this)">Send</button>
+            <button onClick="sendMsg(this, 'text')">Send</button>
         </div>
         <div class="flex-item waiting">
             <p>все бормочешь да бормочешь..Повтори!</p>
-            <button onClick="sendMsg(this)">Send</button>
+            <button onClick="sendMsg(this, 'text')">Send</button>
         </div>
         <div class="flex-item waiting">
             <p></p>
-            <button onClick="sendMsg(this)">Clear screen</button>
+            <button onClick="sendMsg(this, 'text')">Clear text</button>
         </div>
         <div class="flex-item">
             <p>
@@ -44,7 +52,7 @@
                 {NEWLINE}
                 Integer eget ornare enim, sit amet mattis augue.
             </p>
-            <button onClick="sendMsg(this)">Send</button>
+            <button onClick="sendMsg(this, 'text')">Send</button>
         </div>
     <script type="text/javascript" src="/js/admin.js"></script>
 </body>

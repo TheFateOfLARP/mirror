@@ -16,6 +16,11 @@ body{
     letter-spacing: 4px;
 }
 
+#image {
+    height: 100%;
+} 
+
+
 #fittext .new{opacity: 0;}
 #fittext .div_opacity{
     transition: opacity .5s ease-in-out;
